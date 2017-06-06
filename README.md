@@ -1,4 +1,5 @@
-# Matlab SOM code for Normal and Malicious web request classification 
+# Description
+Matlab SOM code for Normal and Malicious web request classification 
 on HTTP dataset CSIC 2010 (http://www.isi.csic.es/dataset/)
 
 ==========================
