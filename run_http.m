@@ -37,10 +37,10 @@ for i=1:1 %or 1:ncv for n fold cross validation
     thedata.test=httptest;
     thedata.nclass = nclass;
     
-    sc_june(thedata,fsave,'autoinit',autoinit,'trainlen',[1,4]);
+    sc_june(thedata,fsave,'autoinit',autoinit,'trainlen',[100,400]);
     close all;
-    sc_june_normal(thedata,fsave,'autoinit',autoinit,'trainlen',[1,4]);
+    sc_june_normal(thedata,fsave,'autoinit',autoinit,'trainlen',[100,400]);
     close all;
-    sc_june_bot(thedata,fsave,'autoinit',autoinit,'trainlen',[1,4]);
+    sc_june_bot(thedata,fsave,'autoinit',autoinit,'trainlen',[100,400]);
     cd ..;
 end

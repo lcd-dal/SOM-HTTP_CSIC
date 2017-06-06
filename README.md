@@ -1,4 +1,4 @@
-Matlab SOM code for Normal and Malicious web request classification 
+# Matlab SOM code for Normal and Malicious web request classification 
 on HTTP dataset CSIC 2010 (http://www.isi.csic.es/dataset/)
 
 ==========================
@@ -11,7 +11,8 @@ on HTTP dataset CSIC 2010 (http://www.isi.csic.es/dataset/)
 
 - Data format: The program accepts numerical data, where each row is an instance
 	and the last feature is the label. For legacy reason, class "2" denotes Normal
-	data, class "n" where n > 2 represents malicious data.
+	data, class "n" where n > 2 represents malicious data. Processed versions
+	of HTTP CSIC 2010 dataset can be found in data folder.
 	
 	With some small modification in running script, the program can be run on
 	other data
@@ -24,3 +25,10 @@ on HTTP dataset CSIC 2010 (http://www.isi.csic.es/dataset/)
 	dr, which summarizes the detection rates, and cmt, which details the confusion matrix.
 
 ============================
+
+# CITATION
+To cite the work, please cite the paper: 
+D. C. Le, A. N. Zincir-Heywood and M. I. Heywood, "Data analytics on network traffic flows for botnet behaviour detection," 
+2016 IEEE Symposium Series on Computational Intelligence (SSCI), Athens, 2016, pp. 1-7. doi: 10.1109/SSCI.2016.7850078
+
+For more information, please contact "duc dot le at dal dot ca"
