@@ -2,7 +2,7 @@
 Matlab SOM code for Normal and Malicious web request classification 
 on HTTP dataset CSIC 2010 (http://www.isi.csic.es/dataset/)
 
-==========================
+===========================
 - Requirements: 
 	SOMToolbox 2.1 (https://github.com/ilarinieminen/SOM-Toolbox)
 	(Warning: the warning about NARGCHK commands used in the toolbox should be fixed to
